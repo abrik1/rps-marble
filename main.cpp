@@ -2,7 +2,6 @@
 #include <string.h>
 
 using namespace std; 
-int choice;
 
 class PublicGame{
   public:
@@ -82,6 +81,7 @@ void setup_game(){
 }
 
 int main(){
+  int choice;
   cout << "welcome to rps-marble" << endl;
   cout << "[1] play" << endl;
   cout << "[2] exit" << endl;
